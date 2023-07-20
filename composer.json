@@ -1,6 +1,7 @@
 {
     "name": "thierry/gart_php-blog",
     "autoload": {
+        "files": ["src/helpers.php"],
         "psr-4": {
             "App\\": "src/"
         }
