@@ -34,7 +34,7 @@ $query->execute(['id' => $id]);
 $query->setFetchMode(PDO::FETCH_CLASS, Category::class);
 /** @var Category[] */
 $categories = $query->fetchAll();
-
+// $title = $post->getName();
 ?>
 
 <h1><?= e($post->getName()) ?></h1>
